@@ -86,7 +86,9 @@
     padding: 20px 30px;
     font-size: 14px;
     border-radius: 5px;
-    letter-spacing: 0.5px; }
+    letter-spacing: 0.5px;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); }
   .banner .banner__content input[type="text"] {
     text-align: center;
     width: 348px;
@@ -128,4 +130,6 @@
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); }
