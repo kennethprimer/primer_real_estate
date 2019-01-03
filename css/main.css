@@ -14,17 +14,30 @@
       -ms-flex-align: center;
       align-items: center; }
       .main-header .main-header__content ul li {
-        padding-right: 80px; }
-        .main-header .main-header__content ul li:last-child {
-          padding-right: 0; }
-          .main-header .main-header__content ul li:last-child a {
-            border: 1px solid white;
-            padding: 15px 20px;
-            border-radius: 5px; }
+        margin-right: 80px; }
+        .main-header .main-header__content ul li:hover a:not(.login-register) {
+          -webkit-transform: translateY(-6px);
+          -ms-transform: translateY(-6px);
+          transform: translateY(-6px); }
         .main-header .main-header__content ul li a {
           color: #FFFFFF;
           text-transform: uppercase;
           font-weight: 600;
           text-decoration: none;
           letter-spacing: 0.5px;
-          display: block; }
+          display: block;
+          -webkit-transition: all ease-in-out 200ms;
+          -o-transition: all ease-in-out 200ms;
+          transition: all ease-in-out 200ms; }
+        .main-header .main-header__content ul li:last-child {
+          margin-right: 0; }
+          .main-header .main-header__content ul li:last-child a {
+            border: 1px solid white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            -webkit-transition: all ease-in-out 200ms;
+            -o-transition: all ease-in-out 200ms;
+            transition: all ease-in-out 200ms; }
+            .main-header .main-header__content ul li:last-child a:hover {
+              background: #FFFFFF;
+              color: #547A6A; }
