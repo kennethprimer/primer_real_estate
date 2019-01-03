@@ -41,3 +41,11 @@
             .main-header .main-header__content ul li:last-child a:hover {
               background: #FFFFFF;
               color: #547A6A; }
+
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .banner .banner__content {
+    height: 500px; }
